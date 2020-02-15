@@ -16,8 +16,13 @@
         <div id="carousel"  class="carousel slide carousel-fade carousel-position">
             <div class="carousel-inner" style="width: 100%;height: 100%;" id="background">
                 <div class="item active" style="width: 100%;height: 100%;">
+                <div style="width: 100%;height: 100%;background-image: url(./img/0.jpeg) ;background-size: cover;"></div>
+                </div>
+
+                <div class="item" style="width: 100%;height: 100%;">
                     <div style="width: 100%;height: 100%;background:url(./img/1.jpeg);background-size: cover;"></div>
                 </div>
+
                 <div class="item" style="width: 100%;height: 100%;">
                     <div style="width: 100%;height: 100%;background-image: url(./img/2.jpeg) ;background-size: cover;"></div>
                 </div>
@@ -55,25 +60,29 @@
                     <div style="width: 100%;height: 100%;background-image: url(./img/13.jpeg);background-size: cover;"></div>
                 </div>
                 <div class="item" style="width: 100%;height: 100%;">
-                    <div style="width: 100%;height: 100%;background-image: url(./img/14.jpeg);background-size: cover;"></div>
+                    <div style="width: 100%;height: 100%;background-image: url(./img/20200214-1.jpeg);background-size: cover;"></div>
+                </div>
+                <div class="item" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background-image: url(./img/last.jpeg);background-size: cover;"></div>
                 </div>
             </div>
         </div>
     </div>
     <div class="modal show" style="top:24%;">
         <div class="modal-dialog" style="opacity: .9">
-            <div class="modal-content" style="opacity:.85">
+            <div class="modal-content" style="opacity:.70">
                 <div class="modal-header">
-                    <h1 class="text-center" style="color: #A94442;font-family: 'JournalRegular', Arial, sans-serif;font-size: 7rem;">the times we together</h1>
-                    <p class="text-center small-title">Ella & Haohao</p>
-                    <p class="text-center small-title">Made with ❤️</p>
+                    <h1 class="text-center" style="color: #A94442;font-family: 'JournalRegular', Arial, sans-serif;font-size: 7rem;">Nice to Meet You :)</h1>
+                    <p class="text-center small-title">Made with ❤️ by Ella & Hao</p>
+                    <!-- <p class="text-center small-title">Made with ❤️</p> -->
                 </div>
                 <div class="modal-body text-center" style="line-height: 1.5rem;font-family: 'JournalRegular', Arial, sans-serif;font-size: 3rem;">
                     <p>
-                        <span id="day" class="time-font"></span><span style="color:#A94442">/&nbsp;</span><span id="hour" class="time-font"></span><span style="color:#A94442">/&nbsp;</span><span id="minute" class="time-font"></span><span style="color:#A94442">/&nbsp;</span><span id="second" class="time-font"></span>
+                        <span id="day" class="time-font"></span><span style="color:#A94442"> Day </span><span id="hour" class="time-font"></span><span style="color:#A94442"> Hour </span><span id="minute" class="time-font"></span><span style="color:#A94442"> Minute </span><span id="second" class="time-font"> </span><span style="color:#A94442"> Second </span>
                     </p>
                     <p>
-                        days/hours/min/sec
+                        <!-- days/hours/min/sec -->
+                        &nbsp
                     </p>
                     <p class="text-center" style="color:#A94442;font-size: 17px" id="say"></p>
                 </div>
@@ -96,24 +105,27 @@
         //     $(document).attr("title", "在一起" + parseInt(days / 30) + "个月,感谢相伴。");
         // } else
         //     $(document).attr("title", "在一起" + days + "天,感谢相伴。");
-        $(document).attr("title", "Made with ❤️");
+        $(document).attr("title", "没有想好的标题");
 
 
         //设置每一张图片对应的文字
         var says = new Array(
-            "⬆️testtest",//1
-            "裸体海滩没有裸体",//2
+            "请问我该从什么时候开始计算呀👆",//1
+            "Wreck Beach 的浪花和海",//2
+            "[Wreck Beach] 裸体海滩没有裸体(只有呼啦啦的冷风在我脸上吹)",//2
             "两个憨憨在 Andy Warhol Museum 自拍",//3
-            "两个憨憨在 Andy Warhol Museum 自拍",//4
+            "两个憨憨在 Andy Warhol Museum 的又一张自拍",//4
             "假 CMU 学子图书馆睡觉",//5
-            "",//6
-            "",//7
-            "",
-            "",
-            "",
-            "",
-            "",
-
+            "Emmm...",//6
+            "屁股与👧 ??",//7
+            "我其实一直觉得这张挺好看的 !",//8
+            "两个憨憨在 Delta",//9
+            "回家公交上: 困 🐷 总是有很多觉哦",//10
+            "一只可爱的 🦢",//11
+            "突然翻到的旧照",//12
+            "小任的连拍",//13
+            "松鼠山的 Starbucks: 向左看向右看的两个憨憨",//20200214-1
+            "😊未来的路还要很多和你一起走呀"//last
         );
 
 
